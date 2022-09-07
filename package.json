@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/axios/axios.git"
+    "url": "https://github.com/mathias8dev/axios8dev"
   },
   "keywords": [
     "xhr",
@@ -24,7 +24,7 @@
     "promise",
     "node"
   ],
-  "author": "Matt Zabriskie",
+  "author": "Matt Zabriskie; patched by Mathias KALIPE",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/axios/axios/issues"
@@ -71,17 +71,9 @@
     "./lib/adapters/http.js": "./lib/adapters/xhr.js",
     "./lib/defaults/env/FormData.js": "./lib/helpers/null.js"
   },
-  "jsdelivr": "dist/axios.min.js",
-  "unpkg": "dist/axios.min.js",
   "typings": "./index.d.ts",
   "dependencies": {
     "follow-redirects": "^1.14.9",
     "form-data": "^4.0.0"
-  },
-  "bundlesize": [
-    {
-      "path": "./dist/axios.min.js",
-      "threshold": "5kB"
-    }
-  ]
+  }
 }
